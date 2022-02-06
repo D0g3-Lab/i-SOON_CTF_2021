@@ -1,0 +1,9 @@
+version: '3'
+services:
+  axb_awd_pwn_runner:
+    image: axb_awd_pwn1
+    build: .
+    container_name: con_axb_awd_pwn1
+    ports:
+      - 10102:022
+      - 10100:80
